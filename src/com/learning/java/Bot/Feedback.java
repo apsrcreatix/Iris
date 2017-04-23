@@ -40,7 +40,7 @@ public class Feedback extends Conversations{
 
     void feedBackGenerator() {
         try (
-                FileWriter fileWriter = new FileWriter("C:\\Users\\Aditya Rajput\\IdeaProjects\\ItIsYourSurpriseTest!\\src\\com\\learning\\java\\Bot\\Feedback.txt",true);
+                FileWriter fileWriter = new FileWriter("src/com/learning/java/Bot/Feedback.txt",true);
                 BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
                 PrintWriter printer = new PrintWriter(bufferedWriter);
         ) {
