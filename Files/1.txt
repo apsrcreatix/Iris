@@ -1,0 +1,5 @@
+what is JVM ?
+What if I write static public void instead of public static void?
+Is constructor inherited?
+Can we overload main() method?
+What is multithreading?

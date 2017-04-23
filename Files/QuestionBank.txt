@@ -1,0 +1,117 @@
+<Q>
+ what is JVM ?
+<A>
+JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification.
+JVMs are available for many hardware and software platforms (so JVM is platform dependent).
+
+<Q>
+What is JRE ?
+<A>
+JRE stands for Java Runtime Environment. It is the implementation of JVM.
+
+<Q>
+ Is delete,next,main,exit or null keyword in java?
+<A>
+No.
+
+<Q>
+If I don't provide any arguments on the command line, then the String array of Main method will be empty or null?
+<A>
+It is empty. But not null.
+
+<Q>
+What if I write static public void instead of public static void?
+<A>
+Program compiles and runs properly.
+
+<Q>
+What will be the initial value of an object reference which is defined as an instance variable? 
+<A>
+The object references are all initialized to null in Java.
+
+<Q>
+What is constructor?
+<A>
+Constructor is just like a method that is used to initialize the state of an object. It is invoked at the time of object creation.
+
+<Q>
+Is constructor inherited?
+<A>
+No, constructor is not inherited.
+
+<Q>
+ What is static method?
+<A>
+1.A static method belongs to the class rather than object of a class.
+2.A static method can be invoked without the need for creating an instance of a class.
+3.static method can access static data member and can change the value of it.
+
+<Q>
+Can we execute a program without main() method?
+<A>
+Yes, one of the way is static block.
+
+<Q>
+Can we overload main() method?
+<A>
+Yes, You can have many main() methods in a class by overloading the main method.
+
+<Q>
+Can we override static method?
+<A>
+No, you can't override the static method because they are the part of class not object. 
+
+<Q>
+Can you have virtual functions in Java?
+<A>
+Yes, all functions in Java are virtual by default. 
+
+
+<Q>
+What is blank final variable?
+<A>
+A final variable, not initalized at the time of declaration, is known as blank final variable
+
+<Q>
+What is multithreading?
+<A>
+Multithreading is a process of executing multiple threads simultaneously.
+
+<Q>
+What is thread?
+<A>
+A thread is a lightweight subprocess.It is a separate path of execution.It is called separate path of execution because each thread runs in a separate stack frame.
+
+
+<Q>
+ What does join() method?
+<A>
+The join() method waits for a thread to die. In other words, it causes the currently running threads to stop executing until the thread it joins with completes its task.
+
+<Q>
+Is it possible to start a thread twice?
+<A>
+No, there is no possibility to start a thread twice. If we does, it throws an exception.
+
+<>
+What about the daemon threads?
+<>
+The daemon threads are basically the low priority threads that provides the background support to the user threads. It provides services to the user threads.
+
+<>
+What is shutdown hook?
+<>
+The shutdown hook is basically a thread i.e. invoked implicitely before JVM shuts down. So we can use it perform clean up resource.
+
+<>
+What is synchronization?
+<>
+Synchronization is the capabilility of control the access of multiple threads to any shared resource.
+
+<>
+What is deadlock?
+Deadlock is a situation when two threads are waiting on each other to release a resource.
+
+Sources:
+S1 : https://www.javatpoint.com/java-multithreading-interview-questions
+S2 : https://www.javatpoint.com/corejava-interview-questions#corebasicsinterview

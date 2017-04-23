@@ -1,0 +1,5 @@
+What is JRE ?
+What will be the initial value of an object reference which is defined as an instance variable? 
+What is static method?
+Can we override static method?
+What does join() method?

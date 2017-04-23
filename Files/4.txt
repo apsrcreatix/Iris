@@ -1,0 +1,5 @@
+Is it possible to start a thread twice?
+What about the daemon threads?
+What is shutdown hook?
+What is synchronization?
+What is deadlock?

@@ -1,0 +1,5 @@
+Is delete,next,main,exit or null keyword in java?
+What is constructor?
+Can we execute a program without main() method?
+Can you have virtual functions in Java?
+What is blank final variable?
